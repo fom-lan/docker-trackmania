@@ -27,20 +27,6 @@ RUN unzip server.zip
 # build main image
 FROM alpine:3.24.4
 
-ARG TMSERVER_VERSION="Latest" \
-    VERSION \
-    BUILD_DATE \
-    REVISION
-
-LABEL org.opencontainers.image.title="Trackmania Server" \
-      org.opencontainers.image.description="Server for the game Trackmania, released in 2020 by Nadeo." \
-      org.opencontainers.image.authors="Nicolas Graf <nicolas.j.graf@gmail.com>" \
-      org.opencontainers.image.vendor="Evo" \
-      org.opencontainers.image.licenses="Apache-2.0" \
-      org.opencontainers.image.version=${VERSION} \
-      org.opencontainers.image.created=${BUILD_DATE} \
-      org.opencontainers.image.revision=${REVISION}
-
 RUN apk update && apk add gcompat xmlstarlet
 
 USER 1000
