@@ -22,7 +22,7 @@
             alt="evo website"></a>
 </p>
 
-This Docker image provides an easy and efficient way to deploy a Trackmania game server. It allows for quick setup, customizable configurations, and supports persistent storage to retain server data across restarts. With this image, you can effortlessly manage your Trackmania server using Docker’s containerization benefits.
+ This Docker image provides an easy and efficient way to deploy a Trackmania game server. It allows for quick setup, customizable configurations, and supports persistent storage to retain server data across restarts. With this image, you can effortlessly manage your Trackmania server using Docker’s containerization benefits.
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
